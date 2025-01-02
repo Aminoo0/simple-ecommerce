@@ -2,10 +2,10 @@
 
 ## Getting Started
 
-# Frist Live demo link 
+# Frist,  Live demo link 
 # [http://simple-ecommerce-wine-alpha.vercel.app](http://simple-ecommerce-wine-alpha.vercel.app)
 
-# Second, run the development server:
+# Second,  run the development server:
 
 ```bash
 npm i
