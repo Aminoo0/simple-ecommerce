@@ -9,7 +9,8 @@ export default function SearchForProducts({ data }) {
     const [search, setSearch] = useState(data)
 
     let filterForProduct = (e) => {
-        let product = data.filter((product) => product.title.toLowerCase().includes(e.target.value))
+        let value = e.target.value
+        let product = data.filter((product) => product.title.toLowerCase().includes(value.toLowerCase()))
         setSearch(product)
     }
 
