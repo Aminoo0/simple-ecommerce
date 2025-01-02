@@ -23,6 +23,7 @@ export default async function ProductDetails({ params }) {
         </div>
       </section>
     </Suspense>
+
     <div className="my-32 w-11/12 lg:w-10/12 mx-auto">
       <h2 className="text-center my-10 mb-20 italic text-5xl font-semibold text-emerald-700">More Products Like This</h2>
       <Suspense fallback={<Loading />}>
